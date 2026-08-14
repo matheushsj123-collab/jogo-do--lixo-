@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://cdkaxa6jhboav"]
+
+[ext_resource type="Texture2D" uid="uid://bxkxapfqo3ay8" path="res://Gemini_Generated_Image_jbjctjbjctjbjctj.jpg" id="1_06t4h"]
+
+[sub_resource type="FontVariation" id="FontVariation_fu7sn"]
+
+[node name="MainMenu" type="Control" unique_id=1592560894]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1877104658]
+layout_mode = 0
+offset_left = -11.0
+offset_top = -2.0
+offset_right = 769.0
+offset_bottom = 419.0
+color = Color(0.011724454, 0.019823285, 0.05616235, 1)
+
+[node name="GeminiGeneratedImageJbjctjbjctjbjctj" type="Sprite2D" parent="ColorRect" unique_id=1072289203]
+position = Vector2(585.5, 310.5)
+scale = Vector2(0.8710622, 0.8164063)
+texture = ExtResource("1_06t4h")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect" unique_id=424398009]
+layout_mode = 0
+offset_left = 358.0
+offset_top = 106.0
+offset_right = 760.0
+offset_bottom = 164.0
+
+[node name="Label" type="Label" parent="ColorRect/VBoxContainer" unique_id=1576410956]
+layout_mode = 2
+theme_override_font_sizes/font_size = 42
+text = "Patrulha do Planeta"
+
+[node name="Button" type="Button" parent="." unique_id=2090651597]
+layout_mode = 0
+offset_left = 426.0
+offset_top = 217.0
+offset_right = 664.0
+offset_bottom = 265.0
+theme_override_font_sizes/font_size = 29
+text = "JOGAR"
+
+[node name="Button2" type="Button" parent="." unique_id=1120215634]
+layout_mode = 0
+offset_left = 426.0
+offset_top = 294.0
+offset_right = 664.0
+offset_bottom = 342.0
+theme_override_fonts/font = SubResource("FontVariation_fu7sn")
+theme_override_font_sizes/font_size = 29
+text = "SAIR"
