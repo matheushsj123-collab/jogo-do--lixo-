@@ -1,63 +1,22 @@
 [gd_scene format=3 uid="uid://5kug7uj08cil"]
 
-[ext_resource type="Script" uid="uid://cta6n251035w3" path="res://player.gd" id="1_urp6f"]
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ebum8"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ebum8"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4flbx"]
-load_path = "res://.godot/imported/Captura_de_tela_2026-08-11_084912-removebg-preview.png-350ef2a7ba6637601299a8980c9b0d65.ctex"
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_i3pqv"]
-atlas = SubResource("CompressedTexture2D_4flbx")
-region = Rect2(0, 0, 115, 101)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_hqtel"]
-atlas = SubResource("CompressedTexture2D_4flbx")
-region = Rect2(115, 0, 115, 101)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_sweqy"]
-atlas = SubResource("CompressedTexture2D_4flbx")
-region = Rect2(230, 0, 115, 101)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_2hs0m"]
-atlas = SubResource("CompressedTexture2D_4flbx")
-region = Rect2(345, 0, 115, 101)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_svhir"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_xvf33"]
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_i3pqv")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_hqtel")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_sweqy")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_2hs0m")
-}],
-"loop": 1,
-"name": &"Idle",
-"speed": 5.0
-}, {
 "frames": [],
 "loop": 1,
-"name": &"new_animation",
+"name": &"idle",
 "speed": 5.0
 }]
 
-[node name="Player" type="CharacterBody2D" unique_id=1627312641]
-script = ExtResource("1_urp6f")
+[node name="Player" type="CharacterBody2D" unique_id=245511010]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1535337520]
-position = Vector2(14, 13)
-shape = SubResource("RectangleShape2D_ebum8")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=288721244]
+shape = SubResource("CapsuleShape2D_ebum8")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CollisionShape2D" unique_id=1659188132]
-position = Vector2(1, 0)
-scale = Vector2(0.15434782, 0.18873765)
-sprite_frames = SubResource("SpriteFrames_svhir")
-animation = &"new_animation"
-autoplay = "Idle"
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=279234653]
+sprite_frames = SubResource("SpriteFrames_xvf33")
+animation = &"idle"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=842863767]
