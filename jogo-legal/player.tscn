@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://5kug7uj08cil"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ebum8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xvf33"]
+animations = [{
+"frames": [],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Player" type="CharacterBody2D" unique_id=245511010]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=288721244]
+shape = SubResource("CapsuleShape2D_ebum8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=279234653]
+sprite_frames = SubResource("SpriteFrames_xvf33")
+animation = &"idle"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=842863767]

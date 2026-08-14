@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://3ojlctjkwg7"]
+
+[ext_resource type="Script" uid="uid://qokhkclw5hbh" path="res://coin.gd" id="1_0t63x"]
+[ext_resource type="Texture2D" uid="uid://dcgyj2hxvwjwx" path="res://Lixo.png" id="2_v7riw"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ebum8"]
+radius = 8.0
+height = 20.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pdq0q"]
+atlas = ExtResource("2_v7riw")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ebum8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pdq0q")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="coin" type="Area2D" unique_id=54187237]
+script = ExtResource("1_0t63x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1124571412]
+shape = SubResource("CapsuleShape2D_ebum8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=137961105]
+position = Vector2(0, -1)
+sprite_frames = SubResource("SpriteFrames_ebum8")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
