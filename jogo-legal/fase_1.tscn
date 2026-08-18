@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://hrdcg0u8odkw" path="res://MonsterPlatformer_FREE/Tiles_GrassGround.png" id="1_ru54l"]
 [ext_resource type="Texture2D" uid="uid://cgsxgqkdpna1c" path="res://Captura de tela 2026-08-14 113448.png" id="2_5s2kv"]
 [ext_resource type="PackedScene" uid="uid://i61jofb6pk1m" path="res://portal.tscn" id="3_urf38"]
+[ext_resource type="PackedScene" uid="uid://5kug7uj08cil" path="res://player.tscn" id="4_ny45v"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5s2kv"]
 texture = ExtResource("1_ru54l")
@@ -85,3 +86,6 @@ texture = ExtResource("2_5s2kv")
 
 [node name="Portal" parent="." unique_id=1224564289 instance=ExtResource("3_urf38")]
 position = Vector2(502, 384)
+
+[node name="Player" parent="." unique_id=245511010 instance=ExtResource("4_ny45v")]
+position = Vector2(388, 326)
