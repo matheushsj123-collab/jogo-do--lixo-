@@ -1,4 +1,7 @@
 TileMapLayer
+Sprite2D
+ParallaxLayer
+ParallaxBackground
 Button
 Label
 VBoxContainer
