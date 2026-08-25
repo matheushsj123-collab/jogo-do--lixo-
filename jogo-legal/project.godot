@@ -11,7 +11,11 @@ config_version=5
 [application]
 
 config/name="jogo legal"
+<<<<<<< HEAD
 run/main_scene="uid://kypqpyp2c1h2"
+=======
+run/main_scene="uid://cdkaxa6jhboav"
+>>>>>>> cc01bd8627fb2eb0dbbe73a31d8aebcc398d7715
 config/features=PackedStringArray("4.7", "Forward Plus")
 
 [autoload]

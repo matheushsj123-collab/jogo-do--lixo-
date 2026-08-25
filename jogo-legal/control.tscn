@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://cguh2ggolh146"]
+
+[ext_resource type="Script" uid="uid://bn07c4iqiowak" path="res://control.gd" id="1_0fbet"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_ebum8"]
+
+[node name="Control" type="Control" unique_id=664888601]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_0fbet")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=868298135]
+layout_mode = 0
+offset_right = 1183.0
+offset_bottom = 658.0
+color = Color(0.012617188, 0.0014758409, 0.012617188, 1)
+
+[node name="Label" type="Label" parent="ColorRect" unique_id=204859752]
+layout_mode = 0
+offset_left = -54.0
+offset_top = 82.0
+offset_right = 1435.0
+offset_bottom = 611.0
+theme_override_font_sizes/font_size = 20
+text = "                                                      Durante muitos anos, a humanidade viveu em equilíbrio com a natureza.
+                              Mas esse equilíbrio foi quebrado.As florestas começaram a desaparecer, os rios foram contaminados, 
+                               o ar ficou cada vez mais poluído e toneladas de lixo passaram a ocupar os lugares onde antes existia vida.
+                               Aos poucos, o planeta começou a perder suas cores.
+                               🌳 Florestas foram destruídas.    
+                              💧 Rios foram contaminados.
+                              🐠  Animais perderam seus habitats.
+                              🌎 O clima começou a mudar.
+                               Agora, a natureza precisa de ajuda.
+                               Você foi escolhido para restaurar o equilíbrio do planeta.
+
+
+ 
+                                                                                                     Sua jornada começa agora..."
+
+[node name="Button" type="Button" parent="." unique_id=1469951853]
+layout_mode = 1
+anchors_preset = -1
+anchor_bottom = 0.5
+offset_left = 916.0
+offset_top = 573.0
+offset_right = 1048.0
+offset_bottom = 592.0
+text = "CONTINUAR"
+icon = SubResource("ViewportTexture_ebum8")
+
+[connection signal="pressed" from="Button" to="." method="_on_btn_continuar_pressed"]

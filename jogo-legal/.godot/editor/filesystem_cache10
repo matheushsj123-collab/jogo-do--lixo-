@@ -1,4 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
+<<<<<<< HEAD
 ::res://::1787657680
 018cd20a-ac98-4159-9f41-2873569a8ee0.jpg::CompressedTexture2D::6265981148872146380::1787656584::1787656584::1::::<><><>0<>0<>f781b117bf657c922d982cbb9fa7dff7<>res://.godot/imported/018cd20a-ac98-4159-9f41-2873569a8ee0.jpg-7cf1dc0a60a93a68b877279281078229.ctex::
 Captura de tela 2026-08-14 113448.png::CompressedTexture2D::5232541290363040046::1787654851::1787654851::1::::<><><>0<>0<>80041cf92c28ca8ca936859158e6aeaa<>res://.godot/imported/Captura de tela 2026-08-14 113448.png-41fde7c07fc76db176fa3e4b6cbe0e7e.ctex::
@@ -153,3 +154,41 @@ GrassLand_WaterBubbles.png::CompressedTexture2D::1765028325743881213::1787657680
 GrassLand_WaterSurfaceAnim.png::CompressedTexture2D::686579719014701886::1787657680::1787657681::1::::<><><>0<>0<>1b4e831084fd7e62be2955935a3fa4d6<>res://.godot/imported/GrassLand_WaterSurfaceAnim.png-b81c4d4acb17b40c8a1539ffc7d8f21c.ctex::
 ::res://Multi_Platformer_Tileset_Original/GrassLand/Terrain/::1787657680
 Grassland_Terrain_Tileset.png::CompressedTexture2D::3761188418245260280::1787657680::1787657680::1::::<><><>0<>0<>94ca41919e9b2f9ddf7914caf4e3495a<>res://.godot/imported/Grassland_Terrain_Tileset.png-6068e43e486e1316ed26ce171bcf6c43.ctex::
+=======
+::res://::1787659643
+Captura de tela 2026-08-14 113448.png::CompressedTexture2D::5232541290363040046::1787653702::1787653702::1::::<><><>0<>0<>80041cf92c28ca8ca936859158e6aeaa<>res://.godot/imported/Captura de tela 2026-08-14 113448.png-41fde7c07fc76db176fa3e4b6cbe0e7e.ctex::
+coin.gd::GDScript::1152542986103840501::1787653702::0::1::::<>Area2D<><>0<>0<><>::
+coin.tscn::PackedScene::58669268879727492::1787653702::0::1::::<><><>0<>0<><>::uid://qokhkclw5hbh::::res://coin.gd<>uid://dcgyj2hxvwjwx::::res://Lixo.png
+dragon-studio-fire-sounds-405444.mp3::AudioStreamMP3::1424307247001604318::1787657538::1787657538::1::::<><><>0<>0<>8ca08250410d52d11e3834585bd8ce2e<>res://.godot/imported/dragon-studio-fire-sounds-405444.mp3-bf3b91f4b4e7e105cf62c082cca6ec0b.mp3str::
+edr-8-bit-jump-001-171817.mp3::AudioStreamMP3::5262850050407354098::1787659643::1787659643::1::::<><><>0<>0<>71b7626a7764f82f0868f49060209c66<>res://.godot/imported/edr-8-bit-jump-001-171817.mp3-f223e18b99819c7105fd76cf3b9c3383.mp3str::
+fase_1.tscn::PackedScene::752373655715013265::1787657967::0::1::::<><><>0<>0<><>::uid://hrdcg0u8odkw::::res://MonsterPlatformer_FREE/Tiles_GrassGround.png<>uid://cgsxgqkdpna1c::::res://Captura de tela 2026-08-14 113448.png<>uid://i61jofb6pk1m::::res://portal.tscn<>uid://5kug7uj08cil::::res://player.tscn<>uid://uj7eq5rpckaw::::res://dragon-studio-fire-sounds-405444.mp3
+fase_2.tscn::PackedScene::6444486951135640344::1787653702::0::1::::<><><>0<>0<><>::
+gari.png::CompressedTexture2D::236775283929021724::1787653702::1787653702::1::::<><><>0<>0<>284dc8644d1cabcaff5db25d6b1fb763<>res://.godot/imported/gari.png-1e01b4bc8ef381aaf072cece563c8f1e.ctex::
+Gemini_Generated_Image_j0aa6zj0aa6zj0aa.jpg::CompressedTexture2D::8226025053550176864::1787653702::1787653702::1::::<><><>0<>0<>feae0051ee87cc49a8d5333dc6bf70a1<>res://.godot/imported/Gemini_Generated_Image_j0aa6zj0aa6zj0aa.jpg-53b78e75eb93360775a550c49762e8d4.ctex::
+Gemini_Generated_Image_jbjctjbjctjbjctj.jpg::CompressedTexture2D::4022805152063123409::1787653702::1787653702::1::::<><><>0<>0<>4d24e69938c3c9cd4ef825bcf1c4d009<>res://.godot/imported/Gemini_Generated_Image_jbjctjbjctjbjctj.jpg-055fd9fad519501cf27b56c46aa4797b.ctex::
+global.gd::GDScript::8484173713857160146::1787653702::0::1::::<>Node<><>0<>0<><>::
+hud.gd::GDScript::815402188127458167::1787653702::0::1::::<>CanvasLayer<><>0<>0<><>::
+hud.tscn::PackedScene::3987221024625316277::1787653702::0::1::::<><><>0<>0<><>::uid://lu8s4qb2t65x::::res://hud.gd
+idle.png::CompressedTexture2D::114219915921551472::1787653702::1787653827::1::::<><><>0<>0<>f057770d63baf2c653340827f16025b6<>res://.godot/imported/idle.png-345bd841398ecb5f0be76f8faade9523.ctex::
+images-removebg-preview.png::CompressedTexture2D::3749859126288592812::1787653702::1787653702::1::::<><><>0<>0<>142ecdf682c157c98f2571ee6242bfd0<>res://.godot/imported/images-removebg-preview.png-1f8275e17ab6e042af4fa0ffd67a202b.ctex::
+jump.png::CompressedTexture2D::1310947366220399855::1787653702::1787653827::1::::<><><>0<>0<>79bac77ee0a6f48222bf516904403d70<>res://.godot/imported/jump.png-60e7d08374724f073911fc9d3b6ea700.ctex::
+Lixo.png::CompressedTexture2D::7313500714869304263::1787653702::1787653702::1::::<><><>0<>0<>52496116912b6455a2db4df3aeb159bd<>res://.godot/imported/Lixo.png-ebfe705d0f8c25126946c370461b8f39.ctex::
+main_menu.tscn::PackedScene::5004092797407975205::1787658997::0::1::::<><><>0<>0<><>::uid://bxkxapfqo3ay8::::res://Gemini_Generated_Image_jbjctjbjctjbjctj.jpg<>uid://oyx3ox30axop::::res://main_menu.gd
+player.gd::GDScript::1559097768397722919::1787653702::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::2127535853387247707::1787655565::0::1::::<><><>0<>0<><>::uid://whid3ackr864::::res://player.gd<>uid://bvlgkid2caro::::res://idle.png<>uid://sxbd186r2408::::res://jump.png<>uid://bthpbtjst57ct::::res://walk.png
+portal.gd::GDScript::492820456497090063::1787656674::0::1::::<>Area2D<><>0<>0<><>::
+portal.tscn::PackedScene::627101916575572208::1787657751::0::1::::<><><>0<>0<><>::uid://btopvqsd2b2e7::::res://images-removebg-preview.png<>uid://hayxfe0jtydb::::res://portal.gd<>uid://dvxayoenbkbj::::res://viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3
+main_menu.gd::GDScript::1033636142255884695::1787658997::0::1::::<>Control<><>0<>0<><>::
+control.tscn::PackedScene::5235735544740418569::1787659435::0::1::::<><><>0<>0<><>::uid://bn07c4iqiowak::::res://control.gd
+control.gd::GDScript::3352433146469175762::1787659161::0::1::::<>Control<><>0<>0<><>::
+teste.png::CompressedTexture2D::6022221672145014684::1787653702::1787653827::1::::<><><>0<>0<>3647fd70a80bf71075ec8f18c1f2b11d<>res://.godot/imported/teste.png-80e88854b3a28129a5b367712ed83311.ctex::
+viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3::AudioStreamMP3::255316236969811371::1787656332::1787656332::1::::<><><>0<>0<>5d16400bab3cebc01651dfadc8206895<>res://.godot/imported/viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3-41ac48bfc8e0d9181ca740bf878e5a25.mp3str::
+walk.png::CompressedTexture2D::3735372910470873335::1787653702::1787653827::1::::<><><>0<>0<>7c976a76efc7c2c06c905d2ed30dc280<>res://.godot/imported/walk.png-9e2b3f0687548f2d45a4214880a644d7.ctex::
+::res://MonsterPlatformer_FREE/::1787653702
+Objects_16x16_free.png::CompressedTexture2D::5450359660090509231::1787653702::1787653702::1::::<><><>0<>0<>81eb6a0090ae2ea80457e3ebccf696dd<>res://.godot/imported/Objects_16x16_free.png-4d8c8b1aedbf7a43f97db600f651f66d.ctex::
+Objects_16x32_free.png::CompressedTexture2D::8321038091131537420::1787653702::1787653702::1::::<><><>0<>0<>6f311b9fb8ff3214747a0ddf01d5ac6c<>res://.godot/imported/Objects_16x32_free.png-775e75cedadaa363e9f847eef5f97451.ctex::
+Objects_16x64_free.png::CompressedTexture2D::7350757390576353848::1787653702::1787653702::1::::<><><>0<>0<>d6e77ad20c1aeb13b4bd4b92d40a6e8a<>res://.godot/imported/Objects_16x64_free.png-4a2d60c54e50c5d3ce38288fc508cf13.ctex::
+Objects_32x32_free.png::CompressedTexture2D::971606364966750553::1787653702::1787653702::1::::<><><>0<>0<>a3d534eb32a8d9a26cbf8ace4f19f842<>res://.godot/imported/Objects_32x32_free.png-630bf07f2fa59df5142530a4e731844a.ctex::
+Objects_64x96_free.png::CompressedTexture2D::2201430340831312695::1787653702::1787653702::1::::<><><>0<>0<>d451f0633593a83995c97141d88bec6b<>res://.godot/imported/Objects_64x96_free.png-f4e426727ac6bc24153ca961e289dc35.ctex::
+Tiles_GrassGround.png::CompressedTexture2D::526602404564924982::1787653702::1787653702::1::::<><><>0<>0<>ea53e8d6371d59de43431f6d3cd9206f<>res://.godot/imported/Tiles_GrassGround.png-ae40894e26f802cf4e22562587d638eb.ctex::
+>>>>>>> cc01bd8627fb2eb0dbbe73a31d8aebcc398d7715
