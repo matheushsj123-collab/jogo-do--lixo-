@@ -1,13 +1,24 @@
 extends Area2D
 
-# @export_file cria um botão super prático no Inspector para escolher o arquivo da próxima cena!
 @export_file("*.tscn") var next_scene_path
+@export var tempo_antes_da_fase := 2.0
+
+@onready var musica = $AudioStreamPlayer
+
+var ativado := false
 
 func _on_body_entered(body):
-	if body.name == "Player":
-		# call_deferred avisa o Godot para carregar a cena APÓS terminar todos os cálculos de física daquele milissegundo. Evita travamentos!
-		call_deferred("change_level")
+	if body.name == "Player" and not ativado:
+		ativado = true
+		
+		# Toca a música
+		musica.play()
+		
+		# Espera a música tocar por 2 segundos
+		await get_tree().create_timer(tempo_antes_da_fase).timeout
+		
+		change_level()
 
 func change_level():
-	if next_scene_path: # Verifica se você preencheu o caminho da cena
-		get_tree().change_scene_to_file("res://fase_2.tscn")
+	if next_scene_path:
+		get_tree().change_scene_to_file(next_scene_path)

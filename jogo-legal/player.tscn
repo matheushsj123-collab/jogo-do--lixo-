@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bvlgkid2caro" path="res://idle.png" id="2_i3pqv"]
 [ext_resource type="Texture2D" uid="uid://sxbd186r2408" path="res://jump.png" id="3_hqtel"]
 [ext_resource type="Texture2D" uid="uid://bthpbtjst57ct" path="res://walk.png" id="4_hqtel"]
+[ext_resource type="AudioStream" uid="uid://cg8mmvmhrd84m" path="res://edr-8-bit-jump-001-171817.mp3" id="5_sweqy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ny45v"]
 size = Vector2(27, 25)
@@ -146,3 +147,6 @@ animation = &"idle"
 autoplay = "idle"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=842863767]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1568536797]
+stream = ExtResource("5_sweqy")

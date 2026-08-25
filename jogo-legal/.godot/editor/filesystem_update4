@@ -1,5 +1,12 @@
+res://main_menu.tscn
+res://main_menu.gd
+res://portal.gd
 res://portal.tscn
 res://fase_1.tscn
-res://game_over.gd
-res://main_menu.gd
-res://main_menu.tscn
+res://player.tscn
+res://control.tscn
+res://control.gd
+res://player.gd
+res://void.tscn
+res://fase_2.tscn
+res://hud.tscn

@@ -1,6 +1,10 @@
-TileMapLayer
+CollisionShape2D
+Area2D
+AudioStreamPlayer
 Button
-Label
-VBoxContainer
 ColorRect
+Label
 Control
+AudioStreamPlayer2D
+TileMapLayer
+VBoxContainer
