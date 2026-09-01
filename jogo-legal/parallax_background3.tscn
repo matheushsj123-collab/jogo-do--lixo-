@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://dox5r6th8lnca"]
+
+[ext_resource type="Texture2D" uid="uid://b0ueijl744ch7" path="res://free-exclusion-zone-tileset-pixel-art/2 Background/Night/1.png" id="1_n38iq"]
+[ext_resource type="Texture2D" uid="uid://phdp5ssxegui" path="res://free-exclusion-zone-tileset-pixel-art/2 Background/Night/2.png" id="2_5f4tu"]
+[ext_resource type="Texture2D" uid="uid://b31spoex8yr4w" path="res://free-exclusion-zone-tileset-pixel-art/2 Background/Night/3.png" id="3_u32ky"]
+[ext_resource type="Texture2D" uid="uid://dnlcuxxdvrtki" path="res://free-exclusion-zone-tileset-pixel-art/2 Background/Night/4.png" id="4_7qmpw"]
+[ext_resource type="Texture2D" uid="uid://dw3v4kuvsis0a" path="res://free-exclusion-zone-tileset-pixel-art/2 Background/Night/5.png" id="5_e85dj"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" unique_id=1245354383]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="." unique_id=1913052794]
+motion_scale = Vector2(0.2, 0.2)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer" unique_id=1785230864]
+scale = Vector2(2.3368056, 2.5030863)
+texture = ExtResource("1_n38iq")
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="." unique_id=2030265913]
+motion_scale = Vector2(0.5, 0.5)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer2" unique_id=1777779752]
+scale = Vector2(2.338542, 2.5030866)
+texture = ExtResource("2_5f4tu")
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="." unique_id=666737418]
+motion_scale = Vector2(0.8, 0.8)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3" unique_id=1515062874]
+scale = Vector2(2.3402777, 2.5030866)
+texture = ExtResource("3_u32ky")
+centered = false
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="." unique_id=919978425]
+motion_scale = Vector2(0.11, 0.11)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer4" unique_id=1933555994]
+scale = Vector2(2.3402777, 2.5030863)
+texture = ExtResource("4_7qmpw")
+centered = false
+
+[node name="ParallaxLayer5" type="ParallaxLayer" parent="." unique_id=284404453]
+motion_scale = Vector2(0.14, 0.14)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer5" unique_id=2126561560]
+scale = Vector2(2.3402777, 2.5030866)
+texture = ExtResource("5_e85dj")
+centered = false

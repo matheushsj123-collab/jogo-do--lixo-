@@ -5,19 +5,19 @@
 [ext_resource type="AudioStream" uid="uid://dvxayoenbkbj" path="res://viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3" id="3_grrij"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ebum8"]
-size = Vector2(14, 27)
+size = Vector2(21, 35)
 
 [node name="Portal" type="Area2D" unique_id=1224564289]
 script = ExtResource("1_ef3v5")
 next_scene_path = "uid://cx20014oek0mm"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2788565]
-position = Vector2(44, -8.5)
+position = Vector2(47.5, -12.5)
 shape = SubResource("RectangleShape2D_ebum8")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=685232501]
-position = Vector2(43.983997, -10.872002)
-scale = Vector2(0.75200003, 1.008)
+position = Vector2(47.483997, -16.371998)
+scale = Vector2(1.1895002, 1.3517499)
 texture = ExtResource("2_grrij")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=66606353]

@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://c0ku0ya6o2ffo"]
+
+[ext_resource type="Script" uid="uid://cudc2oxhjmr8g" path="res://portal_2.gd" id="1_peb1k"]
+[ext_resource type="Texture2D" uid="uid://gpun2h426r8a" path="res://Multi_Platformer_Tileset_Original/GrassLand/Terrain/pixel-art-magical-portal-a-gateway-to-another-world-free-png.webp" id="2_86wby"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ebum8"]
+radius = 17.0
+height = 72.0
+
+[node name="portal2" type="Area2D" unique_id=542014988]
+script = ExtResource("1_peb1k")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1084830437]
+position = Vector2(117, 308)
+shape = SubResource("CapsuleShape2D_ebum8")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=865532809]
+position = Vector2(116.00001, 305.75)
+scale = Vector2(0.057142846, 0.06479592)
+texture = ExtResource("2_86wby")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

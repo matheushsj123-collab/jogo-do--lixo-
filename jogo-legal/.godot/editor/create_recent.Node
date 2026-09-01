@@ -1,8 +1,10 @@
 Sprite2D
+CollisionShape2D
+Area2D
 ParallaxLayer
 ParallaxBackground
-AudioStreamPlayer
 TileMapLayer
+AudioStreamPlayer
 Button
 Label
 VBoxContainer
