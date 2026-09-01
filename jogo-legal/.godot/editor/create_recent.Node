@@ -1,8 +1,8 @@
-AudioStreamPlayer
-TileMapLayer
 Sprite2D
 ParallaxLayer
 ParallaxBackground
+AudioStreamPlayer
+TileMapLayer
 Button
 Label
 VBoxContainer

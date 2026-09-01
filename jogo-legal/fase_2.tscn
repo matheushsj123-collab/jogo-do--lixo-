@@ -1,9 +1,11 @@
-[gd_scene format=3 uid="uid://cx20014oek0mm"]
+[gd_scene format=4 uid="uid://cx20014oek0mm"]
 
 [ext_resource type="Texture2D" uid="uid://6mnia554lgbv" path="res://MonsterPlatformer_FREE/Objects_64x96_free.png" id="1_47a2j"]
 [ext_resource type="Texture2D" uid="uid://cjwgvlff18ftn" path="res://MonsterPlatformer_FREE/Objects_16x16_free.png" id="2_4823c"]
 [ext_resource type="Texture2D" uid="uid://hrdcg0u8odkw" path="res://MonsterPlatformer_FREE/Tiles_GrassGround.png" id="3_iolds"]
 [ext_resource type="Texture2D" uid="uid://cvjj186mowjgm" path="res://018cd20a-ac98-4159-9f41-2873569a8ee0.jpg" id="4_u0tcw"]
+[ext_resource type="PackedScene" uid="uid://bj3spdci8fu5h" path="res://parallax_background2.tscn" id="5_4823c"]
+[ext_resource type="PackedScene" uid="uid://5kug7uj08cil" path="res://player.tscn" id="6_iolds"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2am8a"]
 texture = ExtResource("1_47a2j")
@@ -75,6 +77,7 @@ texture = ExtResource("3_iolds")
 0:1/0 = 0
 1:1/0 = 0
 2:1/0 = 0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
 4:1/0 = 0
 5:1/0 = 0
@@ -4224,6 +4227,7 @@ texture = ExtResource("4_u0tcw")
 63:63/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_ebum8"]
+physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_2am8a")
 sources/1 = SubResource("TileSetAtlasSource_cjr2x")
 sources/2 = SubResource("TileSetAtlasSource_bsee3")
@@ -4232,4 +4236,10 @@ sources/3 = SubResource("TileSetAtlasSource_y30lw")
 [node name="fase2" type="Node2D" unique_id=699168995]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1043441249]
+tile_map_data = PackedByteArray("AAARAB0AAgACAAEAAAASAB0AAgACAAEAAAATAB0AAgACAAEAAAAUAB0AAgACAAEAAAAVAB0AAgACAAEAAAAWAB0AAgACAAEAAAAXAB0AAgACAAEAAAAYAB0AAgACAAEAAAAZAB0AAgACAAEAAAAaAB0AAgACAAEAAAAbAB0AAgACAAEAAAA=")
 tile_set = SubResource("TileSet_ebum8")
+
+[node name="ParallaxBackground" parent="." unique_id=1320315281 instance=ExtResource("5_4823c")]
+
+[node name="Player" parent="." unique_id=245511010 instance=ExtResource("6_iolds")]
+position = Vector2(334, 409)

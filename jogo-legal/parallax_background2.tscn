@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://bj3spdci8fu5h"]
+
+[ext_resource type="Texture2D" uid="uid://6jys368urq8a" path="res://Multi_Platformer_Tileset_Original/GrassLand/Background/background 3/1.png" id="1_y82gp"]
+[ext_resource type="Texture2D" uid="uid://b4d1uc1pih5ko" path="res://Multi_Platformer_Tileset_Original/GrassLand/Background/background 3/2.png" id="2_n0ma3"]
+[ext_resource type="Texture2D" uid="uid://blknyw6t73q0j" path="res://Multi_Platformer_Tileset_Original/GrassLand/Background/background 3/3.png" id="3_lthuh"]
+[ext_resource type="Texture2D" uid="uid://klkfrwmqge4t" path="res://Multi_Platformer_Tileset_Original/GrassLand/Background/background 3/4.png" id="4_omnjm"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" unique_id=1320315281]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="." unique_id=445945931]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer" unique_id=1666140733]
+scale = Vector2(2.0034723, 1.9876543)
+texture = ExtResource("1_y82gp")
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="." unique_id=485948021]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer2" unique_id=1697969015]
+scale = Vector2(2.0017362, 2.0092592)
+texture = ExtResource("2_n0ma3")
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="." unique_id=230879634]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3" unique_id=365493590]
+scale = Vector2(2.015625, 2.0030863)
+texture = ExtResource("3_lthuh")
+centered = false
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="." unique_id=703541614]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer4" unique_id=295373431]
+scale = Vector2(2.0173612, 2.006173)
+texture = ExtResource("4_omnjm")
+centered = false

@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://dcgyj2hxvwjwx" path="res://Lixo.png" id="2_v7riw"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ebum8"]
-radius = 8.0
-height = 20.0
+radius = 14.0
+height = 28.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pdq0q"]
 atlas = ExtResource("2_v7riw")
@@ -29,7 +29,8 @@ script = ExtResource("1_0t63x")
 shape = SubResource("CapsuleShape2D_ebum8")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=137961105]
-position = Vector2(0, -1)
+position = Vector2(1, -2)
+scale = Vector2(1.3125, 1.53125)
 sprite_frames = SubResource("SpriteFrames_ebum8")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

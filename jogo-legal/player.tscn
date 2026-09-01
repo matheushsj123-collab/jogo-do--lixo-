@@ -7,7 +7,7 @@
 [ext_resource type="AudioStream" uid="uid://cg8mmvmhrd84m" path="res://edr-8-bit-jump-001-171817.mp3" id="5_sweqy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ny45v"]
-size = Vector2(27, 34)
+size = Vector2(12, 25)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sweqy"]
 atlas = ExtResource("2_i3pqv")
@@ -136,17 +136,18 @@ animations = [{
 script = ExtResource("1_hqtel")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=288721244]
-position = Vector2(11.5, 28)
+position = Vector2(9, 32.5)
 shape = SubResource("RectangleShape2D_ny45v")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=130221382]
-position = Vector2(11.999999, 28.999998)
-scale = Vector2(1.1210936, 1.4863281)
+position = Vector2(9.03125, 33.390625)
+scale = Vector2(0.9355468, 1.2119141)
 sprite_frames = SubResource("SpriteFrames_ebum8")
 animation = &"idle"
 autoplay = "idle"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=842863767]
+zoom = Vector2(3, 3)
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=157382218]
 stream = ExtResource("5_sweqy")

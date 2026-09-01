@@ -1,2 +1,9 @@
-res://player.tscn
 res://fase_1.tscn
+res://parallax_background.tscn
+res://player.tscn
+res://portal.tscn
+res://hud.gd
+res://coin.tscn
+res://parallax_background2.tscn
+res://fase_2.tscn
+res://portal.gd

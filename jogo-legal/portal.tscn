@@ -1,24 +1,24 @@
 [gd_scene format=3 uid="uid://i61jofb6pk1m"]
 
-[ext_resource type="Texture2D" uid="uid://btopvqsd2b2e7" path="res://images-removebg-preview.png" id="1_0r486"]
 [ext_resource type="Script" uid="uid://hayxfe0jtydb" path="res://portal.gd" id="1_ef3v5"]
+[ext_resource type="Texture2D" uid="uid://bdox5iv7p0o5i" path="res://Multi_Platformer_Tileset_Original/GrassLand/Details/GrassLand_Entry_4.png" id="2_grrij"]
 [ext_resource type="AudioStream" uid="uid://dvxayoenbkbj" path="res://viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3" id="3_grrij"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ebum8"]
-size = Vector2(62, 67)
+size = Vector2(14, 27)
 
 [node name="Portal" type="Area2D" unique_id=1224564289]
 script = ExtResource("1_ef3v5")
 next_scene_path = "uid://cx20014oek0mm"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2788565]
-position = Vector2(39, 3.5)
+position = Vector2(44, -8.5)
 shape = SubResource("RectangleShape2D_ebum8")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=685232501]
-position = Vector2(39, 2.9999962)
-scale = Vector2(0.12900001, 0.14099999)
-texture = ExtResource("1_0r486")
+position = Vector2(43.983997, -10.872002)
+scale = Vector2(0.75200003, 1.008)
+texture = ExtResource("2_grrij")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=66606353]
 stream = ExtResource("3_grrij")
