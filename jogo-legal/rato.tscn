@@ -1,9 +1,42 @@
 [gd_scene format=3 uid="uid://b1ni4mn2kumix"]
 
 [ext_resource type="Texture2D" uid="uid://caxdqdqirh76x" path="res://Rat-DarkGrey-Walk.png" id="1_7k0b5"]
+[ext_resource type="Texture2D" uid="uid://dvj4etakt5pvd" path="res://Rat-DarkGrey-Idle-preview-6x.png" id="1_qc8gx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ebum8"]
 size = Vector2(36, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ulna3"]
+atlas = ExtResource("1_qc8gx")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wgvkp"]
+atlas = ExtResource("1_qc8gx")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hy0hj"]
+atlas = ExtResource("1_qc8gx")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jdi4t"]
+atlas = ExtResource("1_qc8gx")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i2li4"]
+atlas = ExtResource("1_qc8gx")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f2q2p"]
+atlas = ExtResource("1_qc8gx")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lf70j"]
+atlas = ExtResource("1_qc8gx")
+region = Rect2(1152, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mhtmh"]
+atlas = ExtResource("1_qc8gx")
+region = Rect2(1344, 0, 192, 192)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qc8gx"]
 atlas = ExtResource("1_7k0b5")
@@ -23,6 +56,35 @@ region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ebum8"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ulna3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wgvkp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hy0hj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jdi4t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i2li4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f2q2p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lf70j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mhtmh")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qc8gx")
@@ -51,7 +113,7 @@ shape = SubResource("RectangleShape2D_ebum8")
 position = Vector2(10, 7)
 scale = Vector2(0.9375, 0.9375)
 sprite_frames = SubResource("SpriteFrames_ebum8")
-animation = &"walk"
+animation = &"idle"
 autoplay = "walk"
-frame_progress = 0.05286519
+frame_progress = 0.38037932
 flip_h = true

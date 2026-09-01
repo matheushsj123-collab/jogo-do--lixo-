@@ -1,15 +1,3 @@
 res://fase_1.tscn
-<<<<<<< HEAD
-res://parallax_background.tscn
-res://player.tscn
-res://portal.tscn
-res://hud.gd
-res://coin.tscn
 res://parallax_background2.tscn
-res://fase_2.tscn
-res://portal.gd
-=======
 res://rato.tscn
-res://fase_2.tscn
-res://hud.tscn
->>>>>>> eb278e88070ef270d18f2919fed21b68b28be08a

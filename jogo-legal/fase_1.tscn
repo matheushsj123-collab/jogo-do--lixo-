@@ -16,6 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://b21f6w6xotnkc" path="res://Multi_Platformer_Tileset_Original/GrassLand/Details/GrassLand_Bush.png" id="10_85yss"]
 [ext_resource type="PackedScene" uid="uid://3ojlctjkwg7" path="res://coin.tscn" id="15_rwqh0"]
 [ext_resource type="PackedScene" uid="uid://bw2o7ht12bv6l" path="res://hud.tscn" id="16_3yev8"]
+[ext_resource type="PackedScene" uid="uid://b1ni4mn2kumix" path="res://rato.tscn" id="17_sdo6p"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5s2kv"]
 texture = ExtResource("1_ru54l")
@@ -645,3 +646,6 @@ parameters/looping = true
 position = Vector2(960, 326)
 
 [node name="HUD" parent="." unique_id=467442611 instance=ExtResource("16_3yev8")]
+
+[node name="CharacterBody2D" parent="." unique_id=298861681 instance=ExtResource("17_sdo6p")]
+position = Vector2(831, 316)
