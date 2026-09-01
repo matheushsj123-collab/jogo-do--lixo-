@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://b1ni4mn2kumix"]
+
+[ext_resource type="Texture2D" uid="uid://caxdqdqirh76x" path="res://Rat-DarkGrey-Walk.png" id="1_7k0b5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ebum8"]
+size = Vector2(36, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qc8gx"]
+atlas = ExtResource("1_7k0b5")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b83n7"]
+atlas = ExtResource("1_7k0b5")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lfa0m"]
+atlas = ExtResource("1_7k0b5")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yj3ss"]
+atlas = ExtResource("1_7k0b5")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ebum8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qc8gx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b83n7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lfa0m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yj3ss")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=298861681]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=327061494]
+position = Vector2(13, 15)
+shape = SubResource("RectangleShape2D_ebum8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1079633244]
+position = Vector2(10, 7)
+scale = Vector2(0.9375, 0.9375)
+sprite_frames = SubResource("SpriteFrames_ebum8")
+animation = &"walk"
+autoplay = "walk"
+frame_progress = 0.05286519
+flip_h = true

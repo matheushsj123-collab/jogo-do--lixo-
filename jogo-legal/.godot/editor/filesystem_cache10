@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1788259987
+::res://::1788265082
 018cd20a-ac98-4159-9f41-2873569a8ee0.jpg::CompressedTexture2D::6265981148872146380::1788257992::1788258610::1::::<><><>0<>0<>f781b117bf657c922d982cbb9fa7dff7<>res://.godot/imported/018cd20a-ac98-4159-9f41-2873569a8ee0.jpg-7cf1dc0a60a93a68b877279281078229.ctex::
 Captura de tela 2026-08-14 113448.png::CompressedTexture2D::5232541290363040046::1788257992::1788257992::1::::<><><>0<>0<>80041cf92c28ca8ca936859158e6aeaa<>res://.godot/imported/Captura de tela 2026-08-14 113448.png-41fde7c07fc76db176fa3e4b6cbe0e7e.ctex::
 coin.gd::GDScript::1152542986103840501::1788257992::0::1::::<>Area2D<><>0<>0<><>::
@@ -8,11 +8,12 @@ control.gd::GDScript::3352433146469175762::1788257992::0::1::::<>Control<><>0<>0
 control.tscn::PackedScene::5235735544740418569::1788257992::0::1::::<><><>0<>0<><>::uid://bn07c4iqiowak::::res://control.gd
 dragon-studio-fire-sounds-405444.mp3::AudioStreamMP3::1424307247001604318::1788257992::1788258609::1::::<><><>0<>0<>8ca08250410d52d11e3834585bd8ce2e<>res://.godot/imported/dragon-studio-fire-sounds-405444.mp3-bf3b91f4b4e7e105cf62c082cca6ec0b.mp3str::
 edr-8-bit-jump-001-171817.mp3::AudioStreamMP3::5262850050407354098::1788257992::1788258609::1::::<><><>0<>0<>71b7626a7764f82f0868f49060209c66<>res://.godot/imported/edr-8-bit-jump-001-171817.mp3-f223e18b99819c7105fd76cf3b9c3383.mp3str::
-fase_1.tscn::PackedScene::752373655715013265::1788259968::0::1::::<><><>0<>0<><>::uid://hrdcg0u8odkw::::res://MonsterPlatformer_FREE/Tiles_GrassGround.png<>uid://cgsxgqkdpna1c::::res://Captura de tela 2026-08-14 113448.png<>uid://i61jofb6pk1m::::res://portal.tscn<>uid://5kug7uj08cil::::res://player.tscn
+fase_1.tscn::PackedScene::752373655715013265::1788260386::0::1::::<><><>0<>0<><>::uid://hrdcg0u8odkw::::res://MonsterPlatformer_FREE/Tiles_GrassGround.png<>uid://cgsxgqkdpna1c::::res://Captura de tela 2026-08-14 113448.png<>uid://i61jofb6pk1m::::res://portal.tscn<>uid://5kug7uj08cil::::res://player.tscn<>uid://uj7eq5rpckaw::::res://dragon-studio-fire-sounds-405444.mp3
 fase_2.tscn::PackedScene::6444486951135640344::1788257992::0::1::::<><><>0<>0<><>::uid://6mnia554lgbv::::res://MonsterPlatformer_FREE/Objects_64x96_free.png<>uid://cjwgvlff18ftn::::res://MonsterPlatformer_FREE/Objects_16x16_free.png<>uid://hrdcg0u8odkw::::res://MonsterPlatformer_FREE/Tiles_GrassGround.png<>uid://cvjj186mowjgm::::res://018cd20a-ac98-4159-9f41-2873569a8ee0.jpg
 gari.png::CompressedTexture2D::236775283929021724::1788257992::1788257992::1::::<><><>0<>0<>284dc8644d1cabcaff5db25d6b1fb763<>res://.godot/imported/gari.png-1e01b4bc8ef381aaf072cece563c8f1e.ctex::
 Gemini_Generated_Image_j0aa6zj0aa6zj0aa.jpg::CompressedTexture2D::8226025053550176864::1788257992::1788257992::1::::<><><>0<>0<>feae0051ee87cc49a8d5333dc6bf70a1<>res://.godot/imported/Gemini_Generated_Image_j0aa6zj0aa6zj0aa.jpg-53b78e75eb93360775a550c49762e8d4.ctex::
 Gemini_Generated_Image_jbjctjbjctjbjctj.jpg::CompressedTexture2D::4022805152063123409::1788257992::1788257992::1::::<><><>0<>0<>4d24e69938c3c9cd4ef825bcf1c4d009<>res://.godot/imported/Gemini_Generated_Image_jbjctjbjctjbjctj.jpg-055fd9fad519501cf27b56c46aa4797b.ctex::
+Gemini_Generated_Image_ozg12nozg12nozg1-removebg-preview (6).png::CompressedTexture2D::1465287495997659090::1788264708::1788264708::1::::<><><>0<>0<>bd25ad5548f72794f3c9e71f63a33023<>res://.godot/imported/Gemini_Generated_Image_ozg12nozg12nozg1-removebg-preview (6).png-22798f0e99189154f12479187f621ff4.ctex::
 global.gd::GDScript::8484173713857160146::1788257992::0::1::::<>Node<><>0<>0<><>::
 hud.gd::GDScript::815402188127458167::1788257992::0::1::::<>CanvasLayer<><>0<>0<><>::
 hud.tscn::PackedScene::3987221024625316277::1788257992::0::1::::<><><>0<>0<><>::uid://lu8s4qb2t65x::::res://hud.gd
@@ -25,9 +26,10 @@ main_menu.tscn::PackedScene::5004092797407975205::1788257992::0::1::::<><><>0<>0
 orig_big.png::CompressedTexture2D::3097981522743138238::1788257992::1788258609::1::::<><><>0<>0<>cbfc2b63d680a05fb1f906a7bc4027cc<>res://.godot/imported/orig_big.png-5b75afa8454bfa2e1bb938a28e4791a2.ctex::
 parallax_background.tscn::PackedScene::5278865080197801034::1788257992::0::1::::<><><>0<>0<><>::uid://bu1b31jxnjnuf::::res://background 4/1.png<>uid://oomvvbjk23b2::::res://background 4/2.png<>uid://cdavckkp5pqtf::::res://background 4/3.png
 player.gd::GDScript::1559097768397722919::1788257992::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::2127535853387247707::1788259849::0::1::::<><><>0<>0<><>::uid://whid3ackr864::::res://player.gd<>uid://bvlgkid2caro::::res://idle.png<>uid://sxbd186r2408::::res://jump.png<>uid://bthpbtjst57ct::::res://walk.png
+player.tscn::PackedScene::2127535853387247707::1788260366::0::1::::<><><>0<>0<><>::uid://whid3ackr864::::res://player.gd<>uid://bvlgkid2caro::::res://idle.png<>uid://sxbd186r2408::::res://jump.png<>uid://bthpbtjst57ct::::res://walk.png<>uid://cg8mmvmhrd84m::::res://edr-8-bit-jump-001-171817.mp3
 portal.gd::GDScript::492820456497090063::1788257992::0::1::::<>Area2D<><>0<>0<><>::
 portal.tscn::PackedScene::627101916575572208::1788257992::0::1::::<><><>0<>0<><>::uid://btopvqsd2b2e7::::res://images-removebg-preview.png<>uid://hayxfe0jtydb::::res://portal.gd<>uid://dvxayoenbkbj::::res://viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3
+Rat-DarkGrey-Walk.png::CompressedTexture2D::4820532962083790077::1788265082::1788265082::1::::<><><>0<>0<>2ab1ac1848fdd084dfe891e8567fc0c3<>res://.godot/imported/Rat-DarkGrey-Walk.png-bc52a8460749e171a93f4865c968c43a.ctex::
 teste.png::CompressedTexture2D::6022221672145014684::1788257992::1788258609::1::::<><><>0<>0<>3647fd70a80bf71075ec8f18c1f2b11d<>res://.godot/imported/teste.png-80e88854b3a28129a5b367712ed83311.ctex::
 viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3::AudioStreamMP3::255316236969811371::1788257992::1788258609::1::::<><><>0<>0<>5d16400bab3cebc01651dfadc8206895<>res://.godot/imported/viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3-41ac48bfc8e0d9181ca740bf878e5a25.mp3str::
 void.tscn::PackedScene::7879277220934996293::1788257992::0::1::::<><><>0<>0<><>::
