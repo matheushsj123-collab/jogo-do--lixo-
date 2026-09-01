@@ -1,19 +1,2 @@
-<<<<<<< HEAD
-res://fase_1.tscn
 res://player.tscn
-res://parallax_background.tscn
-res://fase_2.tscn
-=======
-res://main_menu.tscn
-res://main_menu.gd
-res://portal.gd
-res://portal.tscn
 res://fase_1.tscn
-res://player.tscn
-res://control.tscn
-res://control.gd
-res://player.gd
-res://void.tscn
-res://fase_2.tscn
-res://hud.tscn
->>>>>>> cc01bd8627fb2eb0dbbe73a31d8aebcc398d7715
