@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1788281806
+::res://::1788282638
 018cd20a-ac98-4159-9f41-2873569a8ee0.jpg::CompressedTexture2D::6265981148872146380::1788280249::1788280338::1::::<><><>0<>0<>f781b117bf657c922d982cbb9fa7dff7<>res://.godot/imported/018cd20a-ac98-4159-9f41-2873569a8ee0.jpg-7cf1dc0a60a93a68b877279281078229.ctex::
 Captura de tela 2026-08-14 113448.png::CompressedTexture2D::5232541290363040046::1788280249::1788280249::1::::<><><>0<>0<>80041cf92c28ca8ca936859158e6aeaa<>res://.godot/imported/Captura de tela 2026-08-14 113448.png-41fde7c07fc76db176fa3e4b6cbe0e7e.ctex::
 coin.gd::GDScript::1152542986103840501::1788280249::0::1::::<>Area2D<><>0<>0<><>::
@@ -32,7 +32,8 @@ portal.gd::GDScript::492820456497090063::1788280249::0::1::::<>Area2D<><>0<>0<><
 portal.tscn::PackedScene::627101916575572208::1788280249::0::1::::<><><>0<>0<><>::uid://hayxfe0jtydb::::res://portal.gd<>uid://bdox5iv7p0o5i::::res://Multi_Platformer_Tileset_Original/GrassLand/Details/GrassLand_Entry_4.png<>uid://dvxayoenbkbj::::res://viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3
 Rat-DarkGrey-Idle-preview-6x.png::CompressedTexture2D::8653576101654962793::1788281806::1788281806::1::::<><><>0<>0<>9c778420755fbd142dab6e849a05aaec<>res://.godot/imported/Rat-DarkGrey-Idle-preview-6x.png-25d0b505f5325c8071606da9b8d69ba5.ctex::
 Rat-DarkGrey-Walk.png::CompressedTexture2D::4820532962083790077::1788280249::1788280930::1::::<><><>0<>0<>2ab1ac1848fdd084dfe891e8567fc0c3<>res://.godot/imported/Rat-DarkGrey-Walk.png-bc52a8460749e171a93f4865c968c43a.ctex::
-rato.tscn::PackedScene::4238705704653673015::1788281295::0::1::::<><><>0<>0<><>::uid://caxdqdqirh76x::::res://Rat-DarkGrey-Walk.png
+rato.tscn::PackedScene::4238705704653673015::1788282212::0::1::::<><><>0<>0<><>::uid://caxdqdqirh76x::::res://Rat-DarkGrey-Walk.png<>uid://dvj4etakt5pvd::::res://Rat-DarkGrey-Idle-preview-6x.png
+spr_rat_1_walk_strip13.png::CompressedTexture2D::5380182656044065403::1788282616::1788282616::1::::<><><>0<>0<>10a833cea1a4a261ee53b96a8b69d730<>res://.godot/imported/spr_rat_1_walk_strip13.png-2664f2c0331a247a9d1c13de0bc4ff0a.ctex::
 teste.png::CompressedTexture2D::6022221672145014684::1788280249::1788280337::1::::<><><>0<>0<>3647fd70a80bf71075ec8f18c1f2b11d<>res://.godot/imported/teste.png-80e88854b3a28129a5b367712ed83311.ctex::
 viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3::AudioStreamMP3::255316236969811371::1788280249::1788280337::1::::<><><>0<>0<>5d16400bab3cebc01651dfadc8206895<>res://.godot/imported/viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3-41ac48bfc8e0d9181ca740bf878e5a25.mp3str::
 void.tscn::PackedScene::7879277220934996293::1788280249::0::1::::<><><>0<>0<><>::
@@ -173,3 +174,9 @@ GrassLand_WaterSurfaceAnim.png::CompressedTexture2D::686579719014701886::1788280
 ::res://Multi_Platformer_Tileset_Original/GrassLand/Terrain/::1788280338
 Grassland_Terrain_Tileset.png::CompressedTexture2D::3761188418245260280::1788280249::1788280338::1::::<><><>0<>0<>94ca41919e9b2f9ddf7914caf4e3495a<>res://.godot/imported/Grassland_Terrain_Tileset.png-6068e43e486e1316ed26ce171bcf6c43.ctex::
 pixel-art-magical-portal-a-gateway-to-another-world-free-png.webp::CompressedTexture2D::453337713614216238::1788280249::1788280338::1::::<><><>0<>0<>30e307d2a4df5b62c5f2a0890729900e<>res://.godot/imported/pixel-art-magical-portal-a-gateway-to-another-world-free-png.webp-a0d01cf3e5632eeb95dfb375f675e423.ctex::
+::res://Vermin_Starter_Full_Animations.zip/::1788282638
+README.txt::TextFile::-1::1788282638::0::1::::<><><>0<>0<><>::
+spr_rat_1_bite_strip13.png::CompressedTexture2D::4301742453804939902::1788282638::1788282638::1::::<><><>0<>0<>8b044ee5a349f9c70cf1f857a72c2236<>res://.godot/imported/spr_rat_1_bite_strip13.png-298d1073c1be607a8a5255221b7e97a5.ctex::
+spr_rat_1_death_strip13.png::CompressedTexture2D::7246925239213758259::1788282638::1788282638::1::::<><><>0<>0<>fc2fb92e2b1455ddfdc4a3b24085e05f<>res://.godot/imported/spr_rat_1_death_strip13.png-c9b4c2df8e10a3b88c02de58125cc202.ctex::
+spr_rat_1_idle_strip13.png::CompressedTexture2D::9214790544718091911::1788282638::1788282638::1::::<><><>0<>0<>95769f2a8ff8f6dfa1440f6a65cc38f2<>res://.godot/imported/spr_rat_1_idle_strip13.png-5c753af90a25971997cb786a3f64b6cd.ctex::
+spr_rat_1_walk_strip13.png::CompressedTexture2D::5186106058906204211::1788282638::1788282638::1::::<><><>0<>0<>e5e7bf544fa151a63745be206ef2695b<>res://.godot/imported/spr_rat_1_walk_strip13.png-2fb86ea994a80db22dffc4ed58d4786e.ctex::

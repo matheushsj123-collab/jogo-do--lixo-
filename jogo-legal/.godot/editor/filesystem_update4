@@ -1,3 +1,6 @@
 res://fase_1.tscn
 res://parallax_background2.tscn
 res://rato.tscn
+res://rato.gd
+res://player.tscn
+res://player.gd
