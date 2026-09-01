@@ -3,8 +3,15 @@ res://parallax_background.tscn
 res://portal.tscn
 res://fase_2.tscn
 res://parallax_background2.tscn
+<<<<<<< HEAD
 res://fase_2_1.tscn
 res://portal.gd
 res://parallax_background3.tscn
 res://portal_2.gd
 res://portal_2.tscn
+=======
+res://rato.tscn
+res://rato.gd
+res://player.tscn
+res://player.gd
+>>>>>>> 5debf1943dc968ce7d81117d2f89340f40321ede

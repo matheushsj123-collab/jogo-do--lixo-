@@ -40,8 +40,8 @@ func _physics_process(delta):
 	move_and_slide()
 
 
-func take_damage():
-	Global.health -= 1
+func take_damage(amount: int = 1) -> void:
+	Global.health -= amount
 
 	if Global.health <= 0:
 		die()
@@ -53,4 +53,5 @@ func die():
 	Global.health = 3
 	Global.coins = 0
 
-	get_tree().reload_current_scene()
+	# O call_deferred espera o frame da física terminar para reiniciar a fase com segurança
+	get_tree().call_deferred("reload_current_scene")
